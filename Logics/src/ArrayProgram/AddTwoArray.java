@@ -10,6 +10,7 @@ public class AddTwoArray {
 		//at.add_next_numbers();
 		//at.add_next_numbers1();
 		at.add_next_numbers2();
+		//gsdugjcbhgd
 	}
 
 	private void add_next_numbers2() {
