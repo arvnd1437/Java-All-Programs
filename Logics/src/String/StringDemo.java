@@ -11,11 +11,124 @@ public class StringDemo {
 		//sd.demo4();
 		//sd.demo5();
 		//sd.demo6();
-		sd.demo7();
+		//sd.demo7();
 		//sd.demo8();//predefined method
+		//sd.demo9();//stripleading
+		//sd.demo10();//stripTrailing()
+		//sd.demo11();
+		sd.demo12();
 		
 		
 		
+	}
+
+	private void demo12() {
+		String s1 = "Today is Thursday";
+		String s2= "day";
+		for(int i=0; i<s1.length(); i++)
+		{
+			if(s2.charAt(0)==s1.charAt(i))
+			{
+				int count=0;
+				for(int j=0; j<s2.length(); j++)
+				{
+					if(s2.charAt(j)==s1.charAt(i))
+					{
+						count++;
+						i++;
+					}
+				}
+				if(count == s2.length())
+				{
+					System.out.println("Yes Contains");
+					break;
+				}
+				else
+					System.out.println("Doesn't contains");
+				 break;
+			}
+		}
+		
+		
+	}
+
+	private void demo11() {
+		String s = "     how are you              ";
+		int start=0,end=s.length()-1;
+		boolean first=false,last=false;
+		for(int i=0; i<s.length();i++)
+		{
+			if(s.charAt(i)==' ' && first==false)
+			{
+				start++;
+			}
+			else
+			{
+				first=true;
+			}
+			if(s.charAt(end)==' ' && last==false)
+			{
+				end--;
+			}
+			else
+			{
+				last=true;
+			}
+			if(first==true && last==true)
+			{
+				for(int j=start; j<=end;j++)
+				{
+					System.out.print(s.charAt(j));
+				}
+				break;
+			}
+		}
+		
+	}
+
+	private void demo10() {
+		String s = "How Are you    ";
+		//System.out.println(s);
+		
+		int last=0;
+		for(int i=s.length()-1;i>=0;i--)
+		{
+			if(s.charAt(i)!=' ') {
+				last=i;
+				break;
+			}
+		}
+		
+		for(int i=0; i<=last; i++)
+		{
+			System.out.print(s.charAt(i));
+		}
+	
+	}
+
+	private void demo9() {
+		/*//predefined method
+		String s = "  How";
+		System.out.println(s);
+		s =s.stripLeading();
+		System.out.println(s);
+		*/
+		
+		///stripleading
+		String s = "  How Are you";
+		boolean first=false;
+		for(int i=0; i<s.length(); i++)
+		{
+			if(s.charAt(i)==' ' && first==false)
+			{
+				continue;
+			}
+			else
+			{
+				first=true;
+				System.out.print(s.charAt(i));
+			}
+		}
 	}
 
 	private void demo8() {
