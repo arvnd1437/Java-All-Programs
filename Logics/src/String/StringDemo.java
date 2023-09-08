@@ -16,10 +16,61 @@ public class StringDemo {
 		//sd.demo9();//stripleading
 		//sd.demo10();//stripTrailing()
 		//sd.demo11();
-		sd.demo12();
+		//sd.demo12();
+		//sd.demo13();//Remove unwanted Spaces
+		//sd.demo14();
+		sd.demo15();//Reveres word
 		
 		
-		
+	}
+	
+
+	
+
+	private void demo14() {
+		String s ="How      are     you";
+		boolean space = true;
+		for(int i=0; i<s.length();i++)
+		{
+			if(s.charAt(i)!=' ')
+			{
+				System.out.print(s.charAt(i));
+				space =false;
+			}
+			else if(space==false)
+			{
+				System.out.print(s.charAt(i));
+				space=true;
+			}
+		}
+	}
+
+	private void demo13() {
+		String s ="How      are     you";
+		for(int i=0; i<s.length();i++)
+		{
+			if(s.charAt(i)!=' ')
+			{
+				System.out.print(s.charAt(i));
+			}
+			else
+			{
+				System.out.print(s.charAt(i));
+				{
+					for(int j=i; j<s.length(); j++)
+					{
+						if(s.charAt(j)==' ') {
+							continue;
+						}
+						else
+						{
+							i=j-1;
+							break;
+						}
+					}
+				}
+			}
+		}
 	}
 
 	private void demo12() {

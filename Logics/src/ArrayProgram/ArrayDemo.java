@@ -25,7 +25,92 @@ public class ArrayDemo {
 		//ad.learing_15();
 		//ad.learing_16();
 		//ad.learing_17();
-		ad.learing_18();//sub array check
+		//ad.learing_18();//sub array check
+		//ad.learing_19();
+		ad.learing_20();
+		//ad.learing_21();
+		//ad.learing_22();
+		//ad.learing_23();
+		
+		
+	}
+
+
+	private void learing_23() {
+	}
+
+
+	private void learing_22() {
+		
+		int[]ar= {10,20,30,40,50};//take top most in temp
+		int count=2;
+		while(count>0) {
+		int temp=ar[0];
+		int i;
+		for(i=0;i<ar.length-1;i++) {
+			ar[i]=ar[i+1];
+		}
+		ar[i]=temp;
+		count--;
+		
+		}
+		for(int j=0;j<ar.length;j++) {
+			System.out.print(ar[j]+" ");
+		}
+	}
+
+
+	private void learing_21() {
+		int[]ar= {10,20,30,40,50};
+		int temp=ar[0];
+		int i;
+		for(i=0;i<ar.length-1;i++) {
+			ar[i]=ar[i+1];
+		}
+		ar[i]=temp;
+		for(int j=0;j<ar.length;j++) {
+			System.out.print(ar[j]+" ");
+		}
+		
+	}
+
+	
+	
+	private void learing_20() {
+		int []ar= {10,20,30,40,50};
+		int temp1=ar[0];
+		int temp2=ar[1];
+		int i;
+		for(i=0;i<=2;i++) {
+			ar[i]=ar[i+2];
+		}
+		ar[i]=temp1;
+		i++;
+		ar[i]=temp2;
+		for(int j=0;j<ar.length;j++) {
+		System.out.println(ar[j]);
+		}
+		
+	}
+
+	private void learing_19() {
+		int no[]= {18,10,3,19,7,22,14,23};
+		int key =15;
+		for(int i=0,j=0;i<no.length;i++)
+		{
+			if(no[i]<=15) {
+				int temp=no[i];
+				no[i]=no[j];
+				no[j]=temp;
+				j++;
+			}
+		}
+			for(int i=0;i<no.length;i++) {
+				{
+					System.out.print(no[i]+" ");
+				}
+			}
+		
 	}
 
 	private void learing_18() {
