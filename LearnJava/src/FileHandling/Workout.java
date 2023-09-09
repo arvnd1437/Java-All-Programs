@@ -110,7 +110,7 @@ public class Workout {
 	a.start();
 	B b = new B();
 	b.start();	
-	c.
+	
 	}
 }
 

@@ -9,8 +9,29 @@ public class NumberTheoryDemo {
 			//nt.perfectno();
 			//nt.fibonacci_series();
 			//nt.amstrong_number();
-			nt.polindrome();
+			//nt.polindrome();
+			nt.factorial_programe();
+			
 	}
+
+		private void factorial_programe() {
+			//for loop
+			int no=5;
+			
+			int fact=1;
+			for(int i=1;i<=no;i++) {
+				fact=fact*i;
+			}
+			System.out.println("factorial of given no is: "+fact);
+			//while loop
+		/*	int no1=5,fac=1;
+			while(no1>0) {
+				fac=fac*no1;
+				no1--;
+			}
+			System.out.println("factorial of given no is: "+fac); */
+			
+		}
 
 		private void polindrome() {
 			int no1=131,rem=0,no2=no1;
