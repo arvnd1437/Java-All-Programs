@@ -27,6 +27,12 @@ public class StringDemo {
 
 	
 
+	private void demo15() {
+	}
+
+
+
+
 	private void demo14() {
 		String s ="How      are     you";
 		boolean space = true;

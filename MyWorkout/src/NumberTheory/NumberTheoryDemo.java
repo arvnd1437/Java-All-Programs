@@ -47,7 +47,6 @@ public class NumberTheoryDemo {
 			}
 			else
 				System.out.println("Not polindrome");
-			
 		}
 
 		private void amstrong_number() {

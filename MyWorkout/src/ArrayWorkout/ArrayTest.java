@@ -9,7 +9,55 @@ public class ArrayTest {
 		//at.test_3();
 		//at.test_4();
 		//at.test_5();
-		at.test_6();
+		//at.test_6();
+		//at.test_7();//find most frequent element
+		at.test_8();//find lowest frequent element
+		
+		
+		
+	}
+
+	private void test_8() {
+			int arr[] = { 1, 3, 2, 1, 2, 2, 3, 1 };
+			int INT_MAX = 1000000000;
+			int mincount = INT_MAX;
+			int element_having_min_freq = -1;
+			for (int i = 0; i < arr.length; i++) 
+			{
+			int count = 0;
+			for (int j = 0; j < arr.length; j++) {
+				if (arr[i] == arr[j])
+				count++;
+			}
+
+			if (count < mincount) {
+				mincount = count;
+				element_having_min_freq = arr[i];
+			}
+			}
+			System.out.println(element_having_min_freq );
+
+	}
+	
+
+	private void test_7() {
+		int a[]= {2,2,4,5,3,6,1,2,3,5,6,6,1,2};
+		int maxCount=0;
+		int maxFreq=0;
+		for(int i=0; i<a.length; i++) {
+			//System.out.print(a[i]+" ");
+			int count=0;
+			for(int j=0; j<a.length; j++) {
+				if(a[i]==a[j]) {
+					count++;
+				}
+			}
+			if(count>maxCount) {
+				maxCount=count;
+				maxFreq=a[i];
+			}
+		}
+		System.out.println("Most frqent Element is: "+ maxFreq+ " - "+maxCount+" times");
 		
 	}
 

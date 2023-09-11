@@ -4,10 +4,10 @@ public class PaternDemo {
 
 	public static void main(String[] args) {
 		PaternDemo pd = new PaternDemo();
-		//pd.pattern1();
-		//pd.patten2();
-		//pd.pattern3();
-		pd.pattern4();
+//		pd.pattern1();
+//		pd.patten2();
+//		pd.pattern3();
+//		pd.pattern4();
 		//pd.pattern5();
 		//pd.patten6();
 		//pd.pattern7();
@@ -20,8 +20,8 @@ public class PaternDemo {
 		//pd.pattern14();
 		//pd.pattern15();
 		//pd.pattern16();
-		//pd.pattern17();
-		//pd.pattern18();
+//		pd.pattern17();
+//		pd.pattern18();
 
 	}
 
