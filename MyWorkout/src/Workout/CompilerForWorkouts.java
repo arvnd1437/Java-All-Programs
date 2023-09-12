@@ -1,28 +1,25 @@
 package Workout;
 
-
-
 import java.util.Scanner;
-
 
 public class CompilerForWorkouts {
 
-	public static void main(String[] args) {
-		int no=20;
-		int div=2;
-		int count=0;
-		while(div<=no/2) {
-			if(no%2==0) {
-				//System.out.println(div);
-				count++;
-			}
-			div++;}
-			if(count==0) {
-				System.out.println("prime");
-			}
-			else
-				System.out.println("no prime");
+	public static void main(String[] args) {//642
+		int no=153;int no2=no;
+		int ams=0;int count=0;int rem=0;
+		while(no>0) {
+			rem=no%10;
+			count++;
+			ams=ams+(rem*rem*rem);
+			no=no/10;
+		}
+	
 		
-//		System.out.println("Division count:"+count);	
-}
+		if(no2==ams) {
+		System.out.println("ams");}
+		else {
+			System.out.println("not ams");}
+	
+	}
+	
 }
