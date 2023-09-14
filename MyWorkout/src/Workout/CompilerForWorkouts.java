@@ -5,21 +5,31 @@ import java.util.Scanner;
 public class CompilerForWorkouts {
 
 	public static void main(String[] args) {//642
-		int no=153;int no2=no;
-		int ams=0;int count=0;int rem=0;
-		while(no>0) {
-			rem=no%10;
-			count++;
-			ams=ams+(rem*rem*rem);
-			no=no/10;
-		}
-	
+		CompilerForWorkouts bd=new CompilerForWorkouts();
+		bd.find_decimal(1011);
 		
-		if(no2==ams) {
-		System.out.println("ams");}
-		else {
-			System.out.println("not ams");}
-	
+	}	
+
+	private void find_decimal(int binary) {
+		int decimal=0;int power=0;
+		while(binary>0) {
+			int rem=binary%10;
+			
+			decimal=rem*find_power(2,power);
+			power++;
+			binary=binary/10;
+			
+		}
+		System.out.println(decimal);
+	}
+
+	private int find_power(int base, int power) {
+		int no=1;
+		while(power>0) {
+			no=no*base;
+			power--;
+		}
+		return no;
 	}
 	
 }

@@ -10,7 +10,8 @@ public class NumberTheoryDemo {
 			//nt.fibonacci_series();
 			//nt.amstrong_number();
 			//nt.polindrome();
-			nt.factorial_programe();
+			//nt.factorial_programe();
+			
 			
 	}
 
