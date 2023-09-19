@@ -37,7 +37,7 @@ if(count==0)
 System.out.println(no + "Prime");
 prime_count=prime_count+1;
 }
-if(prime_count<=5)
+if(prime_count<5)
 {
 	no=no+1;
 	find_primeno(no);
