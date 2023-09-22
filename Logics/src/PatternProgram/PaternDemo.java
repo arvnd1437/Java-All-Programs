@@ -10,7 +10,7 @@ public class PaternDemo {
 //		pd.pattern4();
 		//pd.pattern5();
 		//pd.patten6();
-		//pd.pattern7();
+//		pd.pattern7();
 		//pd.pattern8();
 		//pd.pattern9();
 		//pd.pattern10();
