@@ -20,9 +20,9 @@ public class RecursionDemo {
 		else {
 			System.out.println("Not Prime no");
 		}
-
 	}
 
+	
 	private boolean demo5(int no, int div) {
 		if(no>div) {
 			if(no%div==0)
@@ -34,35 +34,27 @@ public class RecursionDemo {
 		}
 		return true;
 	}
-
 	private int demo4(int no) {
 		if(no==1)
 		return no;
 		else
 			return no*demo4(no-1);
 	}
-
 	private int demo3(int no) {
 		if(no==1)
 			return no;
 		else
-			return no*demo3(no-1);
-		
-		
+			return no*demo3(no-1);	
 	}
-
 	private void demo2(int num) {
 		System.out.println(num);
 		num++;
 		if(num<=5)
 		demo2(num);
 	}
-
 	private void demo1(int no) {
 		System.out.println(no);
 		no++;
 		demo1(no);
 	}
-	
-	
 }

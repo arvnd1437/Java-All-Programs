@@ -11,16 +11,16 @@ public class StrongNumber {
 	            //System.out.println("Reminder : "+rem);
 	            fact=1;
 	            for(int i=1;i<=rem;i++){
-	                fact*=i;//fact=fact*i
+	                fact*=i;
 	            }
 	            //System.out.println("fact : "+fact);
 	            sum+=fact;
 	            num=num/10;
 	        }
 	        if (sum == originalNum) {
-	            System.out.println(originalNum + " is STRONG NUMBER");
+	            System.out.println(originalNum + " is Strong Number");
 	        } else {
-	            System.out.println(originalNum + " is not a STRONG NUMBER");
+	            System.out.println(originalNum + " is not a Strong Number");
 	        }
 
 	}

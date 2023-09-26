@@ -28,7 +28,7 @@ class  B extends Thread
 {
 	public  void run()
 	{
-//print given string in polindrome
+//print given string in palindrome
 		String original = "malayalam";
 		String reverse="";
 		char[]ch = original.toCharArray();
@@ -49,7 +49,7 @@ class  C extends Thread
 {
 	public  void run()
 	{
-//print table programe for number 8754065455
+//print table program for number 8754065455
 		int num = 875406545;
 		for(int i=1;i<=10;i++) {
 //			if(i==5)

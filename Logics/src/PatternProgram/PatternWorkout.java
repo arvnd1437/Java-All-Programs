@@ -9,14 +9,120 @@ public class PatternWorkout {
 //		pw.demo3();
 //		pw.demo4();
 //		pw.demo5();
-		pw.demo6();
+//		pw.demo6();
+//		pw.demo7();
+//		pw.demo8();
+//		pw.demo9();
+//		pw.demo10();
+//		pw.demo11();//check code
+//		pw.demo12();
+//		pw.demo13();
+//		pw.demo14();
+		pw.demo15();
 
 	}
 
-	private void demo6() {
-		for(int col=5;col>=1;col--)			for(int row=1;row<=col;row++) {
+	private void demo15() {
+		
+		for(int no=1;no<=10;no++) {
+			if(no%2==0) {
+				continue;
+			}
+			System.out.print(no+" ");
+		}
+		
+	}
+
+	private void demo14() {
+		int no2=5;boolean first=true;
+		for(int no=1;no<=5;no++) {
+			System.out.print(no*no2+" ");
+			if(no==5 && first==true) {
+				no2=4;
+				no=0;
+				first=false;
+				System.out.println();
+			}
+		}
+	}
+
+	private void demo13() {
+		for(int i=1;i<=4;i++) {
+			for(int j=1;j<=i;j++) {
+				System.out.print(1);	
+			}
+			System.out.print(" ");
+		}
+	}
+
+	private void demo12() {
+		for(int row=1; row<=4;row++) {
+			for(int col=1;col<=row;col++) {
+				System.out.print("*\t");
+			}
+			for(int no=row;no<=3;no++) {
+				System.out.print(1+"\t");
+			}
+			System.out.println();
+		}
+		
+	}
+
+	private void demo11() {
+		for(int row=1; row<=4;row++) {
+			for(int col=1;col<=row;col++) {
+				System.out.print("*  ");
+				
+			}
+			System.out.print(1);
+			System.out.println();
+		}
+	}
+
+	private void demo10() {
+		char ch='A';
+		for(int row=1; row<=4; row++) {
+			for(int col=1; col<=row; col++) {
+				System.out.print(ch+" ");
+				ch++;
+			}
+			System.out.println();
+		}
+	}
+
+	private void demo9() {
+		int no=1;
+		for(int row=1; row<=4; row++) {
+			for(int col=1; col<=row; col++) {
+				System.out.print(no+" ");
+				no++;
+			}
+			System.out.println();
+		}
+	}
+
+	private void demo8() {
+		for(int row=1; row<=5; row++) {
+			for(int col=1; col<=row; col++) {
 				System.out.print(col+ " ");
- {
+			}
+			System.out.println();
+		}
+	}
+
+	private void demo7() {
+		for(int row=1; row<=5; row++) {
+			for(int col=row; col<=5; col++) {
+				System.out.print(col+" ");
+			}
+			System.out.println();
+		}
+	}
+
+	private void demo6() {
+		for(int row=1; row<=5; row++) {
+			for(int col=5; col>=row; col--) {
+				System.out.print(col+" ");
 			}
 			System.out.println();
 		}
