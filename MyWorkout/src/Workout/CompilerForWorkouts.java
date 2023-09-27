@@ -4,11 +4,13 @@ public class CompilerForWorkouts {
 
 	public static void main(String[] args)
 	{
-		for(int col=1; col<=5; col++) {
-			for(int row=5; row>=col; row--) {
-				System.out.print(row+" ");
+		
+		for(int row=1; row<=5; row++) {
+			for(int col=1; col<=5; col++) {
+				System.out.print(col+" \t");
 			}
 			System.out.println();
-		}
+			
+		}	
 	}
 }

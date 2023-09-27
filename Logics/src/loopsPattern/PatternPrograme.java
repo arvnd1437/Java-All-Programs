@@ -1,4 +1,4 @@
-package loops;
+package loopsPattern;
 
 public class PatternPrograme {
 	public static void main(String[]args)

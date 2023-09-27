@@ -1,4 +1,4 @@
-package loops;
+package loopsPattern;
 
 public class loopingDemo {
 
@@ -6,7 +6,7 @@ public class loopingDemo {
 		int no=123456;
 		while(no>0) {
 			int rem=no%100;
-			System.out.print(rem);
+			System.out.print(rem+" ");
 			no=no/10;
 			
 		}

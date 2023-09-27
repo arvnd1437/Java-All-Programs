@@ -1,4 +1,4 @@
-package loops;
+package loopsPattern;
 
 public class WhileLoop {
 
