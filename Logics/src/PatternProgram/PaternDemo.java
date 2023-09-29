@@ -8,20 +8,21 @@ public class PaternDemo {
 //		pd.patten2();
 //		pd.pattern3();
 //		pd.pattern4();
-		//pd.pattern5();
-		//pd.patten6();
+//		pd.pattern5();
+//		pd.patten6();
 //		pd.pattern7();
-		//pd.pattern8();
-		//pd.pattern9();
-		//pd.pattern10();
-		//pd.pattern11();
-		//pd.pattern12();
-		//pd.pattern13();
-		//pd.pattern14();
-		//pd.pattern15();
-		//pd.pattern16();
+//		pd.pattern8();
+//		pd.pattern9();
+//		pd.pattern10();
+//		pd.pattern11();
+//		pd.pattern12();
+//		pd.pattern13();
+//		pd.pattern14();
+//		pd.pattern15();
+//		pd.pattern16();
 //		pd.pattern17();
-//		pd.pattern18();
+		pd.pattern18();
+		
 
 	}
 

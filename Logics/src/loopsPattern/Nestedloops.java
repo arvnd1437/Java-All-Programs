@@ -10,7 +10,7 @@ public class Nestedloops {
 //		nl.demo4();
 //		nl.demo5();
 //		nl.demo6();
-//		nl.demo7();
+		nl.demo7();
 		
 
 	

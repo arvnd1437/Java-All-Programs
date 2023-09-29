@@ -6,11 +6,18 @@ public class CompilerForWorkouts {
 	{
 		
 		for(int row=1; row<=5; row++) {
-			for(int col=1; col<=5; col++) {
-				System.out.print(col+" \t");
+			for(int col=1;col<row; col++) {
+				System.out.print("* ");
+				
+			}
+			
+			for(int st=row;st<=5; st++) {
+				System.out.print(1+" ");
+				
 			}
 			System.out.println();
 			
-		}	
+			
+		}
 	}
 }

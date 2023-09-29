@@ -14,7 +14,7 @@ public class StarPattern {
 
 	private void demo4() {
 		for(int row=1;row<=6;row++) {
-			for (int col=6;col>=row;col++) {
+			for (int col=6;col>=row;col--) {
 				
 				System.out.print("  ");
 			}
