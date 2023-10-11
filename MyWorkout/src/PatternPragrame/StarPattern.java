@@ -4,9 +4,9 @@ public class StarPattern {
 
 	public static void main(String[] args) {
 		StarPattern sp = new StarPattern();
-//		sp.demo1();
-//		sp.demo2();
-//		sp.demo3();
+		sp.demo1();
+		sp.demo2();
+		sp.demo3();
 		sp.demo4();
 		
 

@@ -4,10 +4,10 @@ public class RecursionDemo {
 
 	public static void main(String[] args) {
 		RecursionDemo rd = new RecursionDemo();
-		//rd.demo1(1);
-		//rd.demo2(1);
-		//int no =rd.demo3(3);
-		//System.out.println(no);
+//		rd.demo1(1);
+//		rd.demo2(1);
+		int no =rd.demo3(3);
+//		System.out.println(no);
 		
 		 
 		int reusult =rd.demo4(3);

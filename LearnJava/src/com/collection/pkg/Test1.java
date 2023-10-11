@@ -21,14 +21,14 @@ public class Test1 {
 	
 	
 }
-class Employee
+class Employeee
 {
 	int empId;
 	String empName;
 	double empSalary;
 	char empGrade;
 
-public Employee(int empId,String empName,double empSalary,char empGrade) {
+public Employeee(int empId,String empName,double empSalary,char empGrade) {
 	this.empId=empId;
 	this.empName=empName;
 	this.empSalary=empSalary;

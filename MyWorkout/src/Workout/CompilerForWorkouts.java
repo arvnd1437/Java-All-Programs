@@ -4,20 +4,16 @@ public class CompilerForWorkouts {
 
 	public static void main(String[] args)
 	{
+		CompilerForWorkouts cw=new CompilerForWorkouts();
+		cw.demo1(1);
 		
-		for(int row=1; row<=5; row++) {
-			for(int col=1;col<row; col++) {
-				System.out.print("* ");
-				
-			}
-			
-			for(int st=row;st<=5; st++) {
-				System.out.print(1+" ");
-				
-			}
-			System.out.println();
-			
-			
-		}
+	}
+
+	private void demo1(int no) {
+		System.out.println(no);
+		no++;
+		if(no<=10) {
+		demo1(no);}
+		
 	}
 }

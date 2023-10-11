@@ -3,35 +3,32 @@ package PatternPragrame;
 public class Test2 {
 	public static void main(String[] args) {
 		Test2 te=new Test2();
-//		te.demo1();
-//		te.demo2();
-//		te.demo3();
-//		te.demo4();
-//		te.demo5();
-//		te.demo6();
-//		te.demo7();
-//		te.demo8();
+		te.demo1();
+		te.demo2();
+		te.demo3();
+		te.demo4();
+		te.demo5();
+		te.demo6();
+		te.demo7();
+		te.demo8();
 		te.demo9();
 		te.demo10();
-//		te.demo11();
-//		te.demo12();
-//		te.demo13();
+		te.demo11();
+		te.demo12();
+		te.demo13();
 	
 	}
-
-
 	private void demo13() {
 
 		for(int row=5;row>=1;row--) {
-			for(int col=1;col<=row;col++){
+			for(int col=1;col<=5-row;col++){
 				System.out.print("*"+" ");
 			}
 			for(int no=1;no<=row;no++) {
-				System.out.print(no);
+				System.out.print(no+" ");
 			}
 			System.out.println();
-		}
-		
+		}	
 	}
 
 	private void demo12() {
@@ -92,7 +89,8 @@ public class Test2 {
 		int no=1;
 		for(int row=1;row<=4;row++) {
 			for(int col=1;col<=row;col++) {
-				System.out.print(no+" ");no++;
+				System.out.print(no+" ");
+				no++;
 			}
 			System.out.println();
 			
