@@ -25,6 +25,7 @@ public class MyArrayList {
 //		
 //		System.out.println("Check the Contain value: "+al.contains("raja"));//
 //		System.out.println(al);
-//	}
+	}
+}
 
 

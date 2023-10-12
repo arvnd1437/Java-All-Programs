@@ -2,6 +2,7 @@ package com.jdbc.pkg;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.Scanner;
 
@@ -10,7 +11,7 @@ public class ConnectToDB {
 
 	public static void main(String[] args) {
 		ConnectToDB contdb = new ConnectToDB();
-		contdb.toDB();
+		//contdb.toDB();
 		contdb.fromDB();
 
 	}
@@ -28,29 +29,41 @@ public class ConnectToDB {
 			  Scanner sc = new Scanner(System.in); 
 			  
 			  int id=sc.nextInt();
+//			  int id=8;
 			 
 			   String name =sc.next();
+//			   String name="Raj";
 			   stm.executeUpdate("insert into product values(" + id + ",'" + name + "');");
 			
 			//5.Close & Commit 
 			stm.close();
 			 
-
 			con.close();
 			System.out.println("Successfuly inserted!");
-			
 		}
-		catch(Exception e) {
-			
+		catch(Exception e) {	
 		}
-		
 	}
 	
 	public void fromDB() {
-		
+		try {
+			Class.forName("org.postgresql.Driver");
+			Connection con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/arvnddb","postgres","1234");
+			Statement stm = con.createStatement();
+			 Scanner sc = new Scanner(System.in); 
+			int id=sc.nextInt();
+			ResultSet rs=stm.executeQuery("select * from product where id="+id);
+			while(rs.next()) {
+				System.out.println(rs.getInt(1));
+				System.out.println(rs.getString(2));
+			}
+			rs.close();
+			stm.close();
+			con.close();		
+		}
+		catch(Exception e){
+			System.out.println(e);		
+		}
 	}
 	
-	
-	
-
 }
