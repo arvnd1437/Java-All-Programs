@@ -11,10 +11,10 @@ public class StrongNumber {
 	            //System.out.println("Reminder : "+rem);
 	            fact=1;
 	            for(int i=1;i<=rem;i++){
-	                fact*=i;
+	                fact=fact*i;
 	            }
 	            //System.out.println("fact : "+fact);
-	            sum+=fact;
+	            sum=sum+fact;
 	            num=num/10;
 	        }
 	        if (sum == originalNum) {

@@ -8,29 +8,29 @@ public class ArrayDemo {
 		
 		//System.out.println(args.length);
 		ArrayDemo ad = new ArrayDemo();
-		//ad.learnig_1();
-		//ad.learnig_2();
-		//ad.learnig_3();
-		//ad.learning_4();
-		//ad.learning_5();
-		//ad.learning_6();
-		//ad.learning_7();
-	//	ad.learning_8();
-		//ad.learning_9();
-		//ad.learning_10();
-		//ad.learning_11();
-		//ad.learning_12();
-		//ad.learning_13();
-		//ad.learning_14();
-		//ad.learing_15();
-		//ad.learing_16();
-		//ad.learing_17();
-		//ad.learing_18();//sub array check
-		//ad.learing_19();
+//		ad.learnig_1();
+//		ad.learnig_2();
+//		ad.learnig_3();
+//		ad.learning_4();
+//		ad.learning_5();
+//		ad.learning_6();
+//		ad.learning_7();
+//		ad.learning_8();
+//		ad.learning_9();
+//		ad.learning_10();
+//		ad.learning_11();
+//		ad.learning_12();
+//		ad.learning_13();
+//		ad.learning_14();
+//		ad.learing_15();
+//		ad.learing_16();
+//		ad.learing_17();
+//		ad.learing_18();//sub array check
+//		ad.learing_19();
 		ad.learing_20();
-		//ad.learing_21();
-		//ad.learing_22();
-		//ad.learing_23();
+//		ad.learing_21();
+//		ad.learing_22();
+//		ad.learing_23();
 		
 		
 	}
@@ -90,7 +90,6 @@ public class ArrayDemo {
 		for(int j=0;j<ar.length;j++) {
 		System.out.println(ar[j]);
 		}
-		
 	}
 
 	private void learing_19() {
@@ -220,7 +219,6 @@ public class ArrayDemo {
 		for(int j=0;j<name.length;j++) {
 		char ch = name[j];
 		int count=1;
-		
 		if(ch=='-')
 			continue;
 		for(int i=j+1;i<name.length;i++){
@@ -237,16 +235,12 @@ public class ArrayDemo {
 		}
 		System.out.println("Most frequent letter is "+c);
 		System.out.println("It appears for "+ big +" times");
-
-		
-		
 	}
 
 	private void learning_13() {
 		//char name[]= {'n','a','t','a','r','a','n'};
 				//char name[]= {'a','n','a','n','d','h'};
 		char name[]= {'a','r','a','v','i','n','d','h'};
-				
 				for(int j=0;j<name.length;j++) {
 				boolean repeated = false;
 				char ch = name[j];
@@ -270,8 +264,8 @@ public class ArrayDemo {
 	}
 
 	private void learning_12() {
-		char name[]= {'n','a','t','a','r','a','n'};
-		//char name[]= {'a','n','a','n','d','h'};
+//		char name[]= {'n','a','t','a','r','a','n'};
+		char name[]= {'a','n','a','n','d','h'};
 		
 		for(int j=0;j<name.length;j++) {
 		boolean repeated = false;
@@ -284,7 +278,6 @@ public class ArrayDemo {
 				repeated = true;
 				break;
 			}
-			
 		}
 		if(repeated ==false)
 		{
@@ -332,7 +325,6 @@ public class ArrayDemo {
 		}
 		if(count==0)
 		System.out.println("No Repeated Letter");
-		
 	}
 
 	private void learning_9() {
@@ -369,12 +361,12 @@ public class ArrayDemo {
 		int[]array= {5,-10,-20,30,-40,50};
 		int count=0;
 		for(int i=0;i<array.length;i++) {
-			//if(array[i]<0) {
-			//	count++;
-			//System.out.println(array[i]);}
-			//if(array[i]<0&&array[i]%20==0) {
+//			if(array[i]<0) {
+//				count++;
+//			System.out.println(array[i]);}
+//			if(array[i]<0&&array[i]%20==0) {
 				
-				//System.out.println(array[i]);
+//				System.out.println(array[i]);
 				if(array[i]<0&&i%2==0) {
 					System.out.println(array[i]);
 				
@@ -388,7 +380,7 @@ public class ArrayDemo {
 
 	private void learning_6() {
 		//System.out.println(Integer.MAX_VALUE);
-		System.out.println(Integer.MIN_VALUE);
+//		System.out.println(Integer.MIN_VALUE);
 		
 		int[] scores = {45,93,190,56,68};
 		int lowest=Integer.MAX_VALUE,scond_lowest=Integer.MIN_VALUE;
@@ -418,19 +410,15 @@ public class ArrayDemo {
 		for(int i=1;i<scores.length;i++) {
 			if(scores[i]>high) {
 				high2nd=high;
-				high=scores[i];
-				
+				high=scores[i];	
 			}
 			else if(scores[i]>high2nd){
-			
 				high2nd=scores[i];
 			}
-			
 		}
 		System.out.println("Highest:"+high);
 		System.out.println("Second High:"+high2nd);
-		
-				
+	
 	}
 
 	private void learning_4() {
@@ -450,7 +438,7 @@ public class ArrayDemo {
 			
 		}
 		//System.out.println(count);
-		System.out.println(count);
+		System.out.println("above 96: "+count+" count");
 	}
 		
 	

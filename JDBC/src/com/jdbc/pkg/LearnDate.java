@@ -23,10 +23,7 @@ public class LearnDate {
 //		String s=dtf.format(LocalDateTime.now());
 //		System.out.println(s);
 		
-		Locale l=new Locale("ar","BH");
-		System.out.println(l);
-		
-		
+	
 
 	}
 

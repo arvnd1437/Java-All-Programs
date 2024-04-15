@@ -4,23 +4,23 @@ public class PaternDemo {
 
 	public static void main(String[] args) {
 		PaternDemo pd = new PaternDemo();
-//		pd.pattern1();
-//		pd.patten2();
-//		pd.pattern3();
-//		pd.pattern4();
-//		pd.pattern5();
-//		pd.patten6();
-//		pd.pattern7();
-//		pd.pattern8();
-//		pd.pattern9();
-//		pd.pattern10();
-//		pd.pattern11();
-//		pd.pattern12();
-//		pd.pattern13();
-//		pd.pattern14();
-//		pd.pattern15();
-//		pd.pattern16();
-//		pd.pattern17();
+		pd.pattern1();
+		pd.patten2();
+		pd.pattern3();
+		pd.pattern4();
+		pd.pattern5();
+		pd.patten6();
+		pd.pattern7();
+		pd.pattern8();
+		pd.pattern9();
+		pd.pattern10();
+		pd.pattern11();
+		pd.pattern12();
+		pd.pattern13();
+		pd.pattern14();
+		pd.pattern15();
+		pd.pattern16();
+		pd.pattern17();
 		pd.pattern18();
 		
 
@@ -212,11 +212,8 @@ public class PaternDemo {
 				else
 					System.out.print("  ");
 			}
-			System.out.println();
-			
+			System.out.println();	
 		}
-		
-		
 	}
 
 	private void pattern5() {
@@ -225,11 +222,8 @@ public class PaternDemo {
 				if(col==1)
 				System.out.print("* ");
 			}
-			System.out.println();
-			
+			System.out.println();	
 		}
-		
-		
 	}
 
 	private void pattern4() {
@@ -240,17 +234,13 @@ public class PaternDemo {
 						System.out.print("  ");
 					}
 					else
-			
 				System.out.print("* ");
 				}
 				else
 					System.out.print("  ");
 			}
-			System.out.println();
-			
-		}
-		
-		
+			System.out.println();	
+		}	
 	}
 
 	private void pattern3() {
@@ -268,13 +258,10 @@ public class PaternDemo {
 					System.out.print("  ");
 			}
 			System.out.println();
-			
 		}
-		
 	}
 
 	private void patten2() {
-
 		for(int row=1;row<=7;row++) {
 		for (int col=1;col<=7;col++) {
 			if(row==1) {
@@ -287,12 +274,9 @@ public class PaternDemo {
 					System.out.print("* ");
 			}
 		}
-		System.out.println();
-		
+		System.out.println();	
+	}	
 	}
-		
-	}
-	
 
 	private void pattern1() {
 		

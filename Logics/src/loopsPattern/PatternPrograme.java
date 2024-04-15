@@ -4,10 +4,10 @@ public class PatternPrograme {
 	public static void main(String[]args)
 	{
 		PatternPrograme pg=new PatternPrograme();
-//		pg.demo1();
+		pg.demo1();
 //		pg.demo2();
 //		pg.demo3();
-		pg.demo4();
+//		pg.demo4();
 	
 	}
 
@@ -49,9 +49,20 @@ public class PatternPrograme {
 	}
 
 	private void demo1() {
-		  int no1=100,no2=60,div=2,small=0; if(no1<no2) { small=no1; } else {
-		  small=no2; } while(div<=small) { if(no1%div==0 && no2%div==0) {
-		 System.out.println(div); } div++; }
+		  int no1=100,no2=60,div=2,small=0; 
+		  if(no1<no2){
+			  small=no1;
+			  } 
+		  else {
+		  small=no2; 
+		  }
+		  while(div<=small) {
+			  if(no1%div==0 && no2%div==0) {
+		 
+				  System.out.println(div);
+				  } 
+			  div++; 
+			  }
 		 
 	}
 

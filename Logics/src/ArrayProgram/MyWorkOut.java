@@ -4,10 +4,10 @@ public class MyWorkOut {
 
 	public static void main(String[] args) {
 		MyWorkOut mw = new MyWorkOut();
-		//mw.work1();
-		//mw.work2();
-		//mw.work3();
-		//mw.work4();
+//		mw.work1();
+//		mw.work2();
+//		mw.work3();
+//		mw.work4();
 		//mw.work5(new int[]{10,22,44,66});  
 		mw.work6();
 		

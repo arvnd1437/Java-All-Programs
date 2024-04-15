@@ -4,11 +4,11 @@ public class Test {
 
 	public static void main(String[] args) {
 		Test te=new Test();
-//		te.demo1();
-//		te.demo2();
-//		te.demo3();
-//		te.demo4();
-//		te.demo5();
+		te.demo1();
+		te.demo2();
+		te.demo3();
+		te.demo4();
+		te.demo5();
 
 
 	}

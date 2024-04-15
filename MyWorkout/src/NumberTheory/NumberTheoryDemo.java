@@ -8,7 +8,7 @@ public class NumberTheoryDemo {
 			//nt.primrNo1();//used in boolean
 			//nt.perfectno();
 			//nt.fibonacci_series();
-			//nt.amstrong_number();
+			nt.amstrong_number();
 			//nt.polindrome();
 			//nt.factorial_programe();
 			

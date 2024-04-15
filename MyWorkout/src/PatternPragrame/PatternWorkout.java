@@ -4,9 +4,9 @@ public class PatternWorkout {
 
 	public static void main(String[] args) {
 		PatternWorkout pw=new PatternWorkout();
-//		pw.demo1();
-//		pw.demo2();
-//		pw.demo3();
+		pw.demo1();
+		pw.demo2();
+		pw.demo3();
 		pw.demo4();
 		
 		}

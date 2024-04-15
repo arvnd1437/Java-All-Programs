@@ -4,26 +4,26 @@ public class PatternWorkout {
 
 	public static void main(String[] args) {
 		PatternWorkout pw=new PatternWorkout();
-		pw.demo1();
-		pw.demo2();
-		pw.demo3();
-		pw.demo4();
-		pw.demo5();
-		pw.demo6();
-		pw.demo7();
-		pw.demo8();
-		pw.demo9();
-		pw.demo10();
-		pw.demo11();//check code
-		pw.demo12();
-		pw.demo13();
-		pw.demo14();
-		pw.demo15();
-		pw.demo16();
-		pw.demo17();
-		pw.demo18();
-		pw.demo19();
-		pw.demo20();
+//		pw.demo1();
+//		pw.demo2();
+//		pw.demo3();
+//		pw.demo4();
+//		pw.demo5();
+//		pw.demo6();
+//		pw.demo7();
+//		pw.demo8();
+//		pw.demo9();
+//		pw.demo10();
+//		pw.demo11();//check code
+//		pw.demo12();
+//		pw.demo13();
+//		pw.demo14();
+//		pw.demo15();
+//		pw.demo16();
+//		pw.demo17();
+//		pw.demo18();
+//		pw.demo19();
+//		pw.demo20();
 		pw.demo21();
 		
 

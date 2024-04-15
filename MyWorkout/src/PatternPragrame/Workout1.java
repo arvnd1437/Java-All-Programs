@@ -39,12 +39,12 @@ System.out.println();
 			System.out.println();
 		}
 		
-		//for(char row='I';row>='A';row--) {
-		//	for(char col='A';col<=row;col+=2) {
-			//	System.out.print(col+" ");
-			//}
-			//System.out.println();
-		//}
+//		for(char row='I';row>='A';row--) {
+//			for(char col='A';col<=row;col+=2) {
+//				System.out.print(col+" ");
+//			}
+//			System.out.println();
+//		}
 		
 		
 		int no=1;
